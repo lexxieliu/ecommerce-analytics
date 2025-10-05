@@ -1,4 +1,4 @@
-# Maven Fuzzy Factory E-commerce Analytics
+# E-commerce Analytics
 
 ## 📊 Visualization Results
 
