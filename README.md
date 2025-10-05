@@ -1,4 +1,4 @@
-# Maven Fuzzy Factory E-commerce Analytics
+# E-commerce Analytics
 
 ## Project Overview
 Comprehensive analysis of e-commerce performance data using Python, transforming SQL-based analysis into modern data science workflow.
