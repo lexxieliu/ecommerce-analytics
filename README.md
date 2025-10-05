@@ -1,4 +1,4 @@
-# Maven Fuzzy Factory E-commerce Analytics
+# E-commerce Analytics
 
 ## 📊 Visualization Results
 
@@ -140,38 +140,8 @@ data/                         # Processed data exports
 └── master_product_performance.csv
 ```
 
-## 🚀 How to Run
-
-### **Quick Start**
-1. **Clone repository**: `git clone [repository-url]`
-2. **Install dependencies**: `pip install -r requirements.txt`
-3. **Set up database connection**: Configure MySQL connection in notebooks
-4. **Run master analysis**: Execute `master_analysis.ipynb` for comprehensive results
-
-### **Individual Analysis**
-- Run individual notebooks for specific analysis areas
-- Each notebook includes data loading, analysis, and visualization
-- Results automatically exported to CSV files in `data/` directory
-
-### **Expected Output**
-- **Executive Summary**: Key business metrics and growth indicators
-- **Detailed Analysis**: Comprehensive data tables and performance metrics
-- **Visualizations**: Professional charts and trend analysis
-- **Data Exports**: CSV files with processed results for further analysis
-
-## 📊 Key Insights & Recommendations
-
-### **Growth Strategy**
-- **Sustained Growth**: 90x order growth demonstrates strong market penetration
-- **Revenue Optimization**: $5.30 revenue per session indicates effective monetization
-- **Conversion Excellence**: 8.4% conversion rate exceeds industry standards
-
-### **Channel Optimization**
-- **Diversification Success**: Reduced dependency on paid search traffic
-- **Performance Balance**: Both search channels showing strong conversion rates
-- **Traffic Quality**: High-quality traffic sources driving revenue growth
-
-### **Product Strategy**
-- **Engagement Success**: 78% click-through rate shows strong product appeal
-- **Conversion Efficiency**: 11.4% product page conversion rate indicates effective product presentation
-- **User Experience**: Strong product page performance driving business results
+## How to Run
+1. Clone repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Set up database connection
+4. Run notebooks in order
