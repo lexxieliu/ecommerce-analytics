@@ -1,27 +1,28 @@
-# E-commerce Analytics
+# Maven Fuzzy Factory E-commerce Analytics
 
 ## 📊 Visualization Results
 
 ### **Quarterly Growth Analysis**
-![Quarterly Growth](https://via.placeholder.com/600x400/4CAF50/white?text=Quarterly+Growth+Trends)
+![Quarterly Growth](quarterly.png)
+![Quarterly Growth](revenue.png)
 - **90x Order Growth**: From 60 to 5,420 quarterly orders
 - **113x Revenue Growth**: From $2,999 to $340,376 quarterly revenue
 - **Conversion Rate Improvement**: 3.2% → 8.4%
 
 ### **Channel Performance Dashboard**
-![Channel Analysis](https://via.placeholder.com/600x400/2196F3/white?text=Channel+Performance+Analysis)
+![Channel Analysis](conversion.png)
 - **Traffic Diversification**: Reduced paid search dependency to 83.3%
 - **Channel Balance**: Both gsearch (8.5%) and bsearch (8.8%) showing strong conversion rates
 - **Revenue Distribution**: Optimized traffic source allocation
 
 ### **Product Page Performance**
-![Product Page Analytics](https://via.placeholder.com/600x400/FF9800/white?text=Product+Page+Performance)
+![Product Page Analytics](clickthru.png)
 - **Click-through Rate**: 78.0% average engagement rate
 - **Conversion Rate**: 11.4% product page conversion
 - **User Journey**: Strong product page performance driving business results
 
 ### **Revenue Efficiency Trends**
-![Revenue Efficiency](https://via.placeholder.com/600x400/9C27B0/white?text=Revenue+Efficiency+Analysis)
+![Revenue Efficiency](revenue_trend.png)
 - **Revenue per Session**: $5.30 latest performance
 - **Efficiency Growth**: Consistent improvement in monetization
 - **Session Value**: Strong revenue generation per user session
@@ -140,8 +141,38 @@ data/                         # Processed data exports
 └── master_product_performance.csv
 ```
 
-## How to Run
-1. Clone repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Set up database connection
-4. Run notebooks in order
+## 🚀 How to Run
+
+### **Quick Start**
+1. **Clone repository**: `git clone [repository-url]`
+2. **Install dependencies**: `pip install -r requirements.txt`
+3. **Set up database connection**: Configure MySQL connection in notebooks
+4. **Run master analysis**: Execute `master_analysis.ipynb` for comprehensive results
+
+### **Individual Analysis**
+- Run individual notebooks for specific analysis areas
+- Each notebook includes data loading, analysis, and visualization
+- Results automatically exported to CSV files in `data/` directory
+
+### **Expected Output**
+- **Executive Summary**: Key business metrics and growth indicators
+- **Detailed Analysis**: Comprehensive data tables and performance metrics
+- **Visualizations**: Professional charts and trend analysis
+- **Data Exports**: CSV files with processed results for further analysis
+
+## 📊 Key Insights & Recommendations
+
+### **Growth Strategy**
+- **Sustained Growth**: 90x order growth demonstrates strong market penetration
+- **Revenue Optimization**: $5.30 revenue per session indicates effective monetization
+- **Conversion Excellence**: 8.4% conversion rate exceeds industry standards
+
+### **Channel Optimization**
+- **Diversification Success**: Reduced dependency on paid search traffic
+- **Performance Balance**: Both search channels showing strong conversion rates
+- **Traffic Quality**: High-quality traffic sources driving revenue growth
+
+### **Product Strategy**
+- **Engagement Success**: 78% click-through rate shows strong product appeal
+- **Conversion Efficiency**: 11.4% product page conversion rate indicates effective product presentation
+- **User Experience**: Strong product page performance driving business results
